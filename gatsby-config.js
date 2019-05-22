@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Mike James Li Blog`,
     description: `A new blog`,
-    siteUrl: "https://mive-gatsby-pwa.netlify.com/",
+    siteUrl: "https://mive-gatsby.netlify.com/",
     author: `@gatsbyjs`,
   },
   plugins: [
