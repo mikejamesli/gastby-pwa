@@ -2,9 +2,11 @@ module.exports = {
   siteMetadata: {
     title: `Mike James Li Blog`,
     description: `A new blog`,
+    siteUrl: "https://mive-gatsby-pwa.netlify.com/",
     author: `@gatsbyjs`,
   },
   plugins: [
+    "gatsby-plugin-sitemap",
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
@@ -36,9 +38,10 @@ module.exports = {
     },
     "gatsby-transformer-remark",
     "gatsby-plugin-styled-components",
+    "gatsby-plugin-netlify-cms",
     "gatsby-plugin-netlify",
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-offline`,
   ],
 }
